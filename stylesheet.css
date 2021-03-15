@@ -1,0 +1,142 @@
+body {
+  background-color: white;
+  color: white;
+}
+
+body .headers {
+  color: white;
+}
+
+body .main {
+  color: white;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .side_bar {
+  width: 300px;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .main .side_bar .spaces {
+  width: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 600px;
+  margin-left: 35px;
+}
+
+body .main .side_bar .spaces .character {
+  cursor: pointer;
+  background-color: #a5a564;
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+body .main .side_bar .spaces .play {
+  display: block;
+}
+
+body .main .side_bar .spaces .none {
+  display: none;
+}
+
+body .main .side_bar .spaces .enemy_c {
+  color: black;
+}
+
+body .main .side_bar .spaces .ally_c {
+  color: white;
+}
+
+body .main .side_bar .spaces .touch {
+  background-color: #c3d105;
+  -webkit-box-shadow: 0 0 8px black;
+          box-shadow: 0 0 8px black;
+}
+
+body .main .side_bar .spaces .next {
+  background-color: rgba(233, 255, 183, 0.7);
+}
+
+body .main .left {
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+  margin-right: 17px;
+  background-color: #5b5bf8;
+}
+
+body .main .right {
+  margin-left: 17px;
+  background-color: red;
+}
+
+body .main .contents {
+  background-color: #a5a564;
+  width: 750px;
+}
+
+body .main .contents .table {
+  width: 750px;
+  height: 750px;
+}
+
+body .main .contents .table .tr .th {
+  cursor: pointer;
+  border: 1px solid black;
+  font-size: 50px;
+}
+
+body .main .contents .table .tr .touch {
+  background-color: #c3d105;
+  -webkit-box-shadow: 0 0 8px black;
+          box-shadow: 0 0 8px black;
+}
+
+body .main .contents .table .tr .next {
+  background-color: rgba(233, 255, 183, 0.7);
+}
+
+body .main .contents .table .tr .enemy {
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+  color: black;
+}
+
+body .main .contents .table .tr .get {
+  background-color: rgba(151, 255, 142, 0.7);
+}
+
+body .main .contents .table .tr .overload {
+  color: red;
+}
+
+body .footer {
+  color: white;
+}
+/*# sourceMappingURL=stylesheet.css.map */

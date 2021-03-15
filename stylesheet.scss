@@ -1,0 +1,109 @@
+body {
+    background-color: white;
+    color: white;
+    .headers {
+        color: white;
+    }
+
+    .main {
+        color: white;
+        // width:750px;
+        // height:750px;
+        background-color: black;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        .side_bar {
+            width: 300px;
+            height: 700px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            .spaces{
+                width:270px;
+                display: flex;
+                flex-wrap:wrap;
+                height:600px;
+                margin-left:35px;
+            
+                .character{
+                    cursor:pointer;
+                    background-color: rgb(165, 165, 100);
+                    margin-right:5px;
+                    width:50px;
+                    height:50px;
+                    text-align: center;
+                    font-size:30px;
+                    font-weight:bold;
+                    border: 1px solid black;
+                }
+                .play{
+                    display:block;
+                }
+                .none{
+                    display:none;
+                }
+                .enemy_c{
+                    color:black;
+                }
+                .ally_c{
+                    color:white;
+                }
+                .touch{
+                    background-color: rgb(195, 209, 5);
+                        box-shadow: 0 0 8px rgb(0, 0, 0);
+                }
+                .next{
+                    background-color: rgba(233, 255, 183, 0.7);
+                }
+            }
+        }
+        .left {
+            transform:rotateZ(180deg);
+            margin-right:17px;
+            background-color: rgb(91, 91, 248);
+        }
+        .right {
+            margin-left:17px;
+            background-color: red;
+        }
+        .contents {
+            background-color: rgb(165, 165, 100);
+            width: 750px;
+            .table {
+                width: 750px;
+                height: 750px;
+                // border-collapse: collapse;
+                .tr {
+                    // border:1px solid black;
+                    .th {
+                        cursor: pointer;
+                        border: 1px solid black;
+                        font-size: 50px;
+                    }
+                    .touch {
+                        background-color: rgb(195, 209, 5);
+                        box-shadow: 0 0 8px rgb(0, 0, 0);
+                    }
+                    .next {
+                        background-color: rgba(233, 255, 183, 0.7);
+                    }
+                    .enemy {
+                        transform: rotateZ(180deg);
+                        color:black;
+                    }
+                    .get {
+                        background-color: rgba(151, 255, 142, 0.7);
+                    }
+                    .overload{
+                        color:red;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        color: white;
+    }
+}
