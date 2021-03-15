@@ -11,12 +11,12 @@
 ###         you can type command to shell in desktop application such as terminal, command prompt , iterm2!
 -------------------------------------------------------------------------
 ### Third , you type this command to shell.
-## git clone <copyed message on github page>
+## git clone "copyed message on github page"
 -------------------------------------------------------------------------
 ### Four, you type this command to shell.
 ## ls
 ### next, you have to change forder. Type this command!
-## cd <forder name>
+## cd "forder name"
 -------------------------------------------------------------------------
 ### Last! you drack and drop index.html in this forder to Browser like chrome.
 
