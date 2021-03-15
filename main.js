@@ -840,7 +840,7 @@ function available_math(th) {
                                 next_select.textContent = text;
                                 //成る処理
                                 y = next_select.getBoundingClientRect().y;
-                                if (y > 500) {
+                                if (y > 500 && th.classList.contains("overload") == false) {
                                     text == "歩" ||
                                         text == "桂" ||
                                         text == "銀" ||
@@ -900,13 +900,7 @@ function available_math(th) {
                                             break;
                                         }
                                     }
-
-                                    if (
-                                        next_select.classList.contains(
-                                            "overload"
-                                        )
-                                    ) {
-                                        console.log("test2");
+                                    if (next_select.classList.contains("overload")) {
                                         add_math.textContent =
                                             next_select.textContent;
                                         if (next_select.textContent == "と") {
@@ -947,7 +941,7 @@ function available_math(th) {
                                 y = next_select.getBoundingClientRect().y;
 
                                 next_select.textContent = text;
-                                if (y < 200) {
+                                if (y < 200 && th.classList.contains("overload") == false) {
                                     if (
                                         text == "歩" ||
                                         text == "桂" ||
@@ -966,6 +960,7 @@ function available_math(th) {
                                             next_select.classList.add(
                                                 "overload"
                                             );
+                                            console.log("sawao");
                                             if (text == "歩") {
                                                 next_select.textContent = "と";
                                             } else if (text == "桂") {
